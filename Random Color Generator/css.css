@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    background-image: url(stones-3565221_1920.jpg);
+    background-size: cover;
+    background-position: 0%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+   
+}
+address>a{
+    text-decoration: none;
+    color: white;
+}
+address>a:hover{
+    text-decoration: none;
+    color: #1386f4;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto&display=swap');
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 25rem;
+    /* height: 25rem; */
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 35px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+#colorId {
+    margin-top: 20px;
+
+}
+#btn {
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: aqua;
+    display: block;
+    border: none;
+    margin: auto;
+    margin-top: 20px;
+   border-radius: 5px;  
+}
+#btn:hover {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(219, 36, 36);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+#text-box {
+    height: 150px;
+    width: 20rem;
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.8s ease-out;
+}
+#colorG {
+    font-size: px;
+    background-image: url(plasma-775169_1280.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
